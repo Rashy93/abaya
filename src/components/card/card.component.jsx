@@ -18,7 +18,7 @@ export const Card = (props) => (
     <p> {props.book.description} </p>
   </div>
   <div className="card-action">
-    <a target="_blank" href={props.book.link} >
+    <a href={props.book.link} target="_blank" rel="noopener noreferrer" >
     Read More
     </a>
   </div>
