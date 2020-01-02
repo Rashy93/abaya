@@ -1,7 +1,20 @@
 
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
-  margin-top: 2rem;
+  /* text-align: center;
+  margin-top: 2rem; */
+}
+.row {
+  margin-top: 5px;
+  margin-bottom: 0px !important;;
 }
 
 .App-logo {
@@ -29,6 +42,59 @@
 .App-link {
   color: #61dafb;
 }
+
+/* @media (min-width: 68rem) {
+  article:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 68rem) {
+  article {
+    width: 49%;
+    float: left;
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    margin: 0 2% 1.25rem 0;
+  }
+}
+@media (max-width: 68rem) and (min-width: 53rem) {
+  article:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 53rem) {
+  article {
+    width: 100%;
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    margin: 0 0% 1.25rem 0;
+  }
+  section {
+    width: 100%;
+    float: left;
+    padding: 0.625rem 1.25rem;
+    margin: 0 1% 0 0;
+  }
+  aside {
+    width: 100%;
+    float: left;
+    padding: 0.625rem 1.25rem;
+    margin: 0 0 0 0;
+  }
+}
+@media (max-width: 36rem) {
+  section {
+    width: 100%;
+    float: left;
+    padding: 0.625rem 1.25rem;
+    margin: 0 0 0 0;
+  }
+  aside {
+    width: 100%;
+    float: left;
+    padding: 0.625rem 1.25rem;
+    margin: 0 0 0 0;
+  }
+} */
+
 
 @keyframes App-logo-spin {
   from {

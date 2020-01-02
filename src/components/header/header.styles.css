@@ -1,0 +1,26 @@
+.hero {
+    /* Photo by mnm.all on Unsplash */
+    background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=3553&q=80') center;
+    background-size: cover;
+    padding: 4rem 2rem;
+    color: white !important;
+    font: bold;
+    /* Grid styles */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  .hero h1 {
+    color: white !important;
+    font: bold;
+  }
+  .hero article {
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap: 1rem;
+  }
+  .material-icons {
+    top: 6px !important;
+    right: 5px !important;
+  }

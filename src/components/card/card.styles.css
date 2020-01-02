@@ -1,31 +1,58 @@
-.card-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #95dada;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 25px;
-    cursor: pointer;
-    -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
-    align-items: center;
-  }
-  
-  .card-container:hover {
-    transform: scale(1.05);
-  }
+/*Version 1*/
 
+/* article {
+  width: 50%;
+  float: left;
+  display: inline;
+  padding: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.card-title {
+  margin-left: 40px;
+}
+.card-image {
+  text-align: -webkit-center;
+}
   .card-img {
-      width: 250px;
+      width: 245px !important;
       height: 300px;
-  }
+} */
+/*------------------------------------------------------------------------------------------------------------------------*/
 
-  .card-text {
-    white-space: nowrap; 
-    width: 150px;
-    height: 100px; 
+
+.books > article > .card {
+  border: 1px solid #E2E2E2;
+  border-radius: .5rem;
+}
+
+.card > figure {
+    max-height: 220px;
     overflow: hidden;
-    text-overflow: ellipsis;
-  }
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+    margin: 0px !important;
+}
+
+.card > figure > img {
+  width: 100%;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+.card-content > p {
+  font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+}

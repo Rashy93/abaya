@@ -1,8 +1,18 @@
-.card-list {
-    width: 85vw;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-  
+/*Version 1  */
+/* section {
+  width: 69%;
+  float: right;
+  padding: 0.625rem 1.25rem;
+  margin: 0 1% 0 0;
+  text-align: center;
+} */
+
+/* ------------------------------------------------------------------------ */
+.books{
+  padding: 2rem;
+}
+article {
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}

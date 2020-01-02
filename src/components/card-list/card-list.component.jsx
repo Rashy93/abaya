@@ -5,9 +5,11 @@ import { Card } from '../card/card.component'
 import './card-list.styles.css'
 
 export const CardList = (props) => (
-     <div className="card-list">
-     {props.books.map(book => (
-        <Card key={book.id}  book={book} />
+  <section className="books" id="books">
+  <article>
+    {props.books.map(book => (
+       <Card key={book.id}  book={book} />
       ))}
-    </div>
-)
+      </article>
+    </section>
+);
