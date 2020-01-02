@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { CardList } from './components/card-list/card-list.component';
-import { NavBar } from './components/nav-bar/nav-bar.component'
-import { SideBar } from './components/side-bar/side-bar.component'
+// import { NavBar } from './components/nav-bar/nav-bar.component'
+import { Header } from './components/header/header.component'
+
+// import { SideBar } from './components/side-bar/side-bar.component'
 
 // import logo from './logo.svg';
 import './App.css';
@@ -34,9 +36,8 @@ class App extends Component {
       const filteredBooks = books.filter(book => book.title.toLowerCase().includes(searhField.toLowerCase()))
       return (
         <div className="App">
-        <NavBar />
-        <div className="row">
-        <SideBar placeholder='Search books...' handleChange={this.handleChange} />
+        <Header placeholder='Search books...' handleChange={this.handleChange} />
+        <div>
         <CardList books={filteredBooks} />
         </div>
         

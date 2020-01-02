@@ -3,11 +3,11 @@ import React from 'react';
 import './card.styles.css'
 
 export const Card = (props) => (
-  <article>
   <div className="card sticky-action">
-  <div className="card-image">
-    <img className="card-img" alt="book" src={props.book.image}  />
-  </div>
+  <figure>
+    <img alt="book" src={props.book.image}  />
+  <figcaption><h3>{props.book.title}</h3></figcaption>
+  </figure>
   <div className="card-content">
     <h5 className="card-title activator grey-text text-darken-4"> {props.book.title} <i className="material-icons right">more_vert</i></h5>
     <p>By {props.book.author} </p>
@@ -15,6 +15,7 @@ export const Card = (props) => (
   <div className="card-reveal">
     <h5 className="card-title grey-text text-darken-4"> {props.book.title} <i className="material-icons right">close</i></h5>
     <h6> {props.book.subtitle} </h6>
+    <p> {props.book.author} </p>
     <p> {props.book.description} </p>
   </div>
   <div className="card-action">
@@ -22,6 +23,5 @@ export const Card = (props) => (
   </div>
 
   </div>
-  </article>
 );
 

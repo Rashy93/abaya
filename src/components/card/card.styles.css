@@ -1,8 +1,14 @@
-article {
+/*Version 1*/
+
+/* article {
   width: 50%;
   float: left;
   display: inline;
   padding: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.card-title {
+  margin-left: 40px;
 }
 .card-image {
   text-align: -webkit-center;
@@ -10,5 +16,43 @@ article {
   .card-img {
       width: 245px !important;
       height: 300px;
-  }
+} */
+/*------------------------------------------------------------------------------------------------------------------------*/
 
+
+.books > article > .card {
+  border: 1px solid #E2E2E2;
+  border-radius: .5rem;
+}
+
+.card > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+    margin: 0px !important;
+}
+
+.card > figure > img {
+  width: 100%;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+.card-content > p {
+  font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+}
