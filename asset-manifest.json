@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/abaya/static/css/main.011788d9.chunk.css",
-    "main.js": "/abaya/static/js/main.e5c7624e.chunk.js",
-    "main.js.map": "/abaya/static/js/main.e5c7624e.chunk.js.map",
+    "main.css": "/abaya/static/css/main.3990724e.chunk.css",
+    "main.js": "/abaya/static/js/main.eaa26768.chunk.js",
+    "main.js.map": "/abaya/static/js/main.eaa26768.chunk.js.map",
     "runtime-main.js": "/abaya/static/js/runtime-main.e9b6fcce.js",
     "runtime-main.js.map": "/abaya/static/js/runtime-main.e9b6fcce.js.map",
     "static/js/2.2ddec0bc.chunk.js": "/abaya/static/js/2.2ddec0bc.chunk.js",
     "static/js/2.2ddec0bc.chunk.js.map": "/abaya/static/js/2.2ddec0bc.chunk.js.map",
     "index.html": "/abaya/index.html",
-    "precache-manifest.2504ab97e99054525ac7c0a564a72323.js": "/abaya/precache-manifest.2504ab97e99054525ac7c0a564a72323.js",
+    "precache-manifest.f0ef562566956715f989ba05ce0bc3bb.js": "/abaya/precache-manifest.f0ef562566956715f989ba05ce0bc3bb.js",
     "service-worker.js": "/abaya/service-worker.js",
-    "static/css/main.011788d9.chunk.css.map": "/abaya/static/css/main.011788d9.chunk.css.map",
+    "static/css/main.3990724e.chunk.css.map": "/abaya/static/css/main.3990724e.chunk.css.map",
     "static/js/2.2ddec0bc.chunk.js.LICENSE": "/abaya/static/js/2.2ddec0bc.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.e9b6fcce.js",
     "static/js/2.2ddec0bc.chunk.js",
-    "static/css/main.011788d9.chunk.css",
-    "static/js/main.e5c7624e.chunk.js"
+    "static/css/main.3990724e.chunk.css",
+    "static/js/main.eaa26768.chunk.js"
   ]
 }

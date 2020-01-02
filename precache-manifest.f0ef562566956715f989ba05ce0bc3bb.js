@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdb9981c5caf0f6c4fd1bce7ccf8679f",
+    "revision": "f24d5994b0b22eae70d8ceadcf906b50",
     "url": "/abaya/index.html"
   },
   {
-    "revision": "16c7ed97a369808b7f27",
-    "url": "/abaya/static/css/main.011788d9.chunk.css"
+    "revision": "d5bb20d3920417bcb0f9",
+    "url": "/abaya/static/css/main.3990724e.chunk.css"
   },
   {
     "revision": "838824a936fce6b1fe72",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abaya/static/js/2.2ddec0bc.chunk.js.LICENSE"
   },
   {
-    "revision": "16c7ed97a369808b7f27",
-    "url": "/abaya/static/js/main.e5c7624e.chunk.js"
+    "revision": "d5bb20d3920417bcb0f9",
+    "url": "/abaya/static/js/main.eaa26768.chunk.js"
   },
   {
     "revision": "1c4b1848d17d4ab98ae4",
