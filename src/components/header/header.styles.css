@@ -1,7 +1,7 @@
 .hero {
     /* Photo by mnm.all on Unsplash */
-    /* background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=3553&q=80') center; */
-    border-style: dashed;
+    background: url('https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') center;
+    /* border-style: solid; */
     background-size: cover;
     padding: 4rem 2rem;
     color: black !important;
@@ -10,14 +10,15 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
   }
 
   .hero h1 {
     color: black !important;
-    font: bold;
+    font-weight: bold;
     /* width: 80%; */
     padding: 2rem;
-    border-style: dashed;
+    /* border-style: dashed; */
 
   }
   .hero-search {
@@ -27,9 +28,11 @@
   }
   .hero-search > p {
     padding: 1rem;
+    font-weight: bold;
   }
   .hero-search > form {
     padding: 1rem;
+    
   }
   .material-icons {
     top: 6px !important;

@@ -37,7 +37,7 @@ class App extends Component {
       return (
         <div className="App">
         <Header placeholder='Search books...' handleChange={this.handleChange} />
-        <div>
+        <div className="body">
         <CardList books={filteredBooks} />
         </div>
         
