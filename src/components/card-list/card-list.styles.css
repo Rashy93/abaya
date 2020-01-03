@@ -8,11 +8,18 @@
 } */
 
 /* ------------------------------------------------------------------------ */
-.books{
-  padding: 2rem;
-}
-article {
+
+
+.wrapper {
   display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.books{
+  /* padding: 2rem; */
 }

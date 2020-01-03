@@ -1,9 +1,10 @@
 .hero {
     /* Photo by mnm.all on Unsplash */
-    background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=3553&q=80') center;
+    /* background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=3553&q=80') center; */
+    border-style: dashed;
     background-size: cover;
     padding: 4rem 2rem;
-    color: white !important;
+    color: black !important;
     font: bold;
     /* Grid styles */
     display: grid;
@@ -12,13 +13,23 @@
   }
 
   .hero h1 {
-    color: white !important;
+    color: black !important;
     font: bold;
+    /* width: 80%; */
+    padding: 2rem;
+    border-style: dashed;
+
   }
-  .hero article {
+  .hero-search {
     display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 1rem;
+  }
+  .hero-search > p {
+    padding: 1rem;
+  }
+  .hero-search > form {
+    padding: 1rem;
   }
   .material-icons {
     top: 6px !important;

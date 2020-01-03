@@ -5,7 +5,7 @@ import './header.styles.css'
 export const Header = ({ placeholder , handleChange}) => (
 <section className="hero">
     <h1>React Book Library</h1>
-    <article>
+    <article className="hero-search">
       <p>Explore books with just one search and stirred by starlight across the centuries light years great turbulent clouds circumnavigated paroxysm of global death.</p>
       <form>
       <div className="input-field">

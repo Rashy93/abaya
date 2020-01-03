@@ -3,6 +3,7 @@ import React from 'react';
 import './card.styles.css'
 
 export const Card = (props) => (
+  
   <div className="card sticky-action">
   <figure>
     <img alt="book" src={props.book.image}  />
@@ -21,7 +22,6 @@ export const Card = (props) => (
   <div className="card-action">
     <a href={props.book.link} target="_blank" rel="noopener noreferrer" > Read More </a>
   </div>
-
   </div>
 );
 

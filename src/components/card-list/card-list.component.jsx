@@ -6,7 +6,7 @@ import './card-list.styles.css'
 
 export const CardList = (props) => (
   <section className="books" id="books">
-  <article>
+  <article className="wrapper">
     {props.books.map(book => (
        <Card key={book.id}  book={book} />
       ))}
