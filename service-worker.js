@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/abaya/precache-manifest.f0ef562566956715f989ba05ce0bc3bb.js"
+  "/abaya/precache-manifest.a65437f5c9afe30954ed8bd821f920cf.js"
 );
 
 self.addEventListener('message', (event) => {
