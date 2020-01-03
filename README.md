@@ -1,4 +1,4 @@
-View [Deployed App](https://github.com/Rashy93/abaya/deployments).
+View [Deployed App](https://rashy93.github.io/abaya/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
